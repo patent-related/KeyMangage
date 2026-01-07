@@ -24,7 +24,7 @@ public class MainDemo {
         System.out.println("资源已存储：id=" + resource.getResourceId() + " 指纹=" + resource.getResourceFingerprint());
 
 // 2. DID 注册（请求方）
-        String requesterDid = "did:example:alice";
+        String requesterDid = "did:idata:6c8bc7de0c584eecbb9fbbaf6108d7cf";
         didRegistry.register(requesterDid, "alice-public-key-sim"); // 公钥模拟
         System.out.println("DID 已注册：" + requesterDid);
 
